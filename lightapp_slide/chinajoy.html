@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ch" manifest="http://www.lightapp.cn/appcache/act/3464?_t=1404280894"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Chinajoy</title>
+    <meta charset="utf-8">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <link rel="stylesheet" type="text/css" href="./victoria/copyright.css">
+    <link rel="stylesheet" type="text/css" href="./victoria/main.css">
+    <link rel="stylesheet" type="text/css" href="./victoria/add2home.css">
+    <script type="text/javascript" src="./victoria/offline.js"></script>	<!--移动端版本兼容 -->
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth/640;
+
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)){
+            var version = parseFloat(RegExp.$1);
+            // andriod 2.3
+            if(version>2.3){
+                document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+                // andriod 2.3以上
+            }else{
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+            // 其他系统
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+
+    </script>
+    <!--移动端版本兼容 end -->
+</head>
+<body>
+<!--模版加载提示-->
+<section class="u-alert">
+    <img style='display:none;' src="./victoria/loading_large.gif" />
+    <div class='alert-loading z-move'>
+        <div class='cycleWrap'>
+            <span class='cycle cycle-1'></span>
+            <span class='cycle cycle-2'></span>
+            <span class='cycle cycle-3'></span>
+            <span class='cycle cycle-4'></span>
+        </div>
+        <div class="lineWrap">
+            <span class='line line-1'></span>
+            <span class='line line-2'></span>
+            <span class='line line-3'></span>
+        </div>
+    </div>
+</section>
+<!--模版加载提示 end-->
+
+<!-- 声音控件 -->
+<section class='u-audio f-hide' data-src='http://www.lightapp.cn/userfiles/info_pic/59/2014/07/34018/53a811a48f53a.mp3'>
+    <p id='coffee_flow' class="btn_audio">
+        <strong class='txt_audio z-hide'>关闭</strong>
+        <span class='css_sprite01 audio_open'></span>
+    </p>
+</section>
+<!-- 声音控件 end-->
+<!-- 箭头指示引导 -->
+<section class='u-arrow f-hide'><p class="css_sprite01"></p></section>
+<!-- 箭头指示引导 end-->
+
+<!-- page页面内容 -->
+<section class='p-ct'>
+    <!-- 旋转正面 -->
+    <div id="j-mengban" class='translate-front'>
+        <div class='mengban-warn'></div>
+    </div>
+    <!-- 旋转正面 end-->
+
+    <!-- 旋转反面 -->
+    <div class='translate-back f-hide'>
+        <!-- 封页 1-->
+        <!-- 擦一擦 --><input id="ca-tips"   type="hidden" value="" />
+        <!-- 蒙板背景图 --><input id="r-cover" type="hidden" value='victoria/chinajoy/53a97a1adbb0a.jpg' />
+        <div class='m-page m-fengye f-hide' data-page-type='info_pic3' data-statics='info_pic3'>
+            <div class="page-con lazy-img" data-src='victoria/chinajoy/1.jpg'></div>
+        </div>
+        <!-- 封页 end-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/2.jpg'>
+            </div>
+        </div>
+        <!-- 大图文 3-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/3.jpg'>
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/4.jpg'>
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/5.jpg'>
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/6.jpg'>
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/7.jpg'>
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/8.jpg'>
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/9.jpg'>
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/10.jpg'>
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/11.jpg'>
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/12.jpg'>
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+13
+
+        <!-- 大图文 3-->
+        <div class='m-page m-bigTxt f-hide' data-page-type='bigTxt' data-statics='info_list'>
+            <div class="page-con j-txtWrap lazy-img" data-src='victoria/chinajoy/13.jpg'>
+            </div>
+            <!-- 微信 -->
+            <div class="bigTxt-btn bigTxt-btn-wx lazy-img" data-src="victoria/chinajoy/53b0d36b6a990.jpg" style="background-size: cover!important;"><a href="http://www.huodongxing.com/event/6236680452800"></a></div>
+            <div class="bigTxt-weixin"><img src="./victoria/weixin-share-guide.png"></div>
+            <!-- 微信 end-->
+        </div>
+        <!-- 大图文 end-->
+
+
+
+    </div>
+    <!-- 旋转反面 end-->
+</section>
+<!-- 正文介绍 end-->
+
+<!--meeting map-->
+<div class="ylmap bigOpen">
+    <!--地图插件元素-->
+    <div class='bk'><span class='css_sprite01'></span></div>
+</div>
+<!--meeting map end-->
+
+<!--pageLoading-->
+<section class="u-pageLoading">
+    <img src="victoria/load.gif" alt="loading" />
+</section>
+<!--pageLoading end-->
+
+<!-- 资源传递 -->
+<script src="./victoria/init.mix.js" type="text/javascript" charset="utf-8"></script>
+<script src="./victoria/weixin.js" type="text/javascript" charset="utf-8"></script>
+<script src="./victoria/coffee.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="./victoria/10_ylMap.js" type="text/javascript" charset="utf-8"></script>-->
+<script src="./victoria/Lottery.js" type="text/javascript" charset="utf-8"></script>
+<script src="./victoria/99_main.js" type="text/javascript" charset="utf-8" defer></script>
+<!-- 模版ID --><input id="activity_id" type="hidden" value='3464' />
+<!-- 微信分享信息 --><input id="r-wx-title" type="hidden" value="ChinaJoy" />
+<!-- 微信分享信息 --><input id="r-wx-img"   type="hidden" value="http://deathfang.github.io/test/lightapp_slide//victoria/chinajoy/weixin_holder.jpg" />
+<!-- 微信分享信息 --><input id="r-wx-con"   type="hidden" value="这一夏，看ChinaJoy Showgirl"" />
+
+
+<!-- 资源传递 end-->
+
+</body>
+</html>

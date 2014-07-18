@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ch" manifest="http://www.lightapp.cn/appcache/act/3464?_t=1404280894"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>维多利亚的秘密</title>
+    <meta charset="utf-8">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <link rel="stylesheet" type="text/css" href="./victoria/copyright.css">
+    <link rel="stylesheet" type="text/css" href="./victoria/main.css">
+    <link rel="stylesheet" type="text/css" href="./victoria/add2home.css">
+    <script type="text/javascript" src="./victoria/offline.js"></script>	<!--移动端版本兼容 -->
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth/640;
+
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)){
+            var version = parseFloat(RegExp.$1);
+            // andriod 2.3
+            if(version>2.3){
+                document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+                // andriod 2.3以上
+            }else{
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+            // 其他系统
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script><meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">
+    <!--移动端版本兼容 end -->
+</head>
+
+<body class="s-bg-ddd pc perspective yes-3d" style="-webkit-user-select: none;">
+<!--模版加载提示-->
+<section class="u-alert">
+    <img style="display:none;" src="./victoria/loading_large.gif">
+    <div class="alert-loading z-move">
+        <div class="cycleWrap">
+            <span class="cycle cycle-1"></span>
+            <span class="cycle cycle-2"></span>
+            <span class="cycle cycle-3"></span>
+            <span class="cycle cycle-4"></span>
+        </div>
+        <div class="lineWrap">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </div>
+    </div>
+</section>
+<!--模版加载提示 end-->
+
+<!-- 声音控件 -->
+<section class="u-audio" data-src="http://www.lightapp.cn/userfiles/info_pic/59/2014/07/34018/53a811a48f53a.mp3">
+    <p id="coffee_flow" class="btn_audio">
+        <strong class="txt_audio z-move z-hide">打开</strong>
+        <span class="css_sprite01 audio_open"></span>
+    <div class="coffee-steam-box" style="height: 100px; width: 44px; left: 48px; top: -50px; position: absolute; overflow: hidden; z-index: 0; display: block; -webkit-transition: left 2.167s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s; transition: left 2.167s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s;"><span class="coffee-steam" style="position: absolute; left: -2px; top: 35px; color: rgb(123, 65, 210); font-family: Geneva; display: block; opacity: 0; -webkit-transform: rotate(-7deg) scale(0.593868217989802); -webkit-transition: top 5.938s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s, left, opacity; transition: top 5.938s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s, left, opacity;"><img src="./victoria/audio_widget_01@2x.png"></span><span class="coffee-steam" style="position: absolute; left: -2px; top: 44px; color: rgb(59, 219, 238); font-family: Arial; display: block; opacity: 0; -webkit-transform: rotate(-51deg) scale(0.992845909576863); -webkit-transition: top 4.333s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s, left, opacity; transition: top 4.333s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s, left, opacity;"><img src="./victoria/audio_widget_01@2x.png"></span><span class="coffee-steam" style="position: absolute; left: -3px; top: 44px; color: rgb(103, 152, 17); font-family: &#39;Lucida Sans Unicode&#39;; display: block; opacity: 0; -webkit-transform: rotate(-42deg) scale(0.711865222081542); -webkit-transition: top 3.341s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s, left, opacity; transition: top 3.341s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s, left, opacity;"><img src="./victoria/audio_widget_01@2x.png"></span><span class="coffee-steam" style="position: absolute; left: -12px; top: 34px; color: rgb(133, 123, 178); font-family: Arial; display: block; opacity: 0; -webkit-transform: rotate(-53deg) scale(0.699611067399383); -webkit-transition: top 3.612s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s, left, opacity; transition: top 3.612s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s, left, opacity;"><img src="./victoria/audio_widget_01@2x.png"></span><span class="coffee-steam" style="position: absolute; left: -1px; top: 9px; color: rgb(177, 219, 78); font-family: &#39;MS Serif&#39;; display: block; opacity: 0; -webkit-transform: rotate(33deg) scale(0.450319124292582); -webkit-transition: top 4.721s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s, left, opacity; transition: top 4.721s cubic-bezier(0.09, 0.64, 0.16, 0.94) 0s, left, opacity;"><img src="./victoria/audio_widget_01@2x.png"></span></div></p>
+</section>
+<!-- 声音控件 end-->
+<!-- 箭头指示引导 -->
+<section class="u-arrow"><p class="css_sprite01"></p></section>
+<!-- 箭头指示引导 end-->
+
+<!-- page页面内容 -->
+<section class="p-ct transformNode-3d" style="height: 643px;">
+    <!-- 旋转正面 -->
+    <div id="j-mengban" class="translate-front" style="height: 643px;">
+        <div class="mengban-warn"></div>
+        <canvas style="position: fixed; left: 50%; top: 0px; width: 640px; margin-left: -320px; height: 100%; z-index: 20; background-color: transparent;" width="759" height="597"></canvas></div>
+    <!-- 旋转正面 end-->
+
+    <!-- 旋转反面 -->
+    <div class="translate-back" style="height: 643px;">
+        <!-- 封页 1-->
+        <!-- 擦一擦 -->
+        <!-- 蒙板背景图 -->
+        <div class="m-page m-fengye z-animate f-hide" data-page-type="info_pic3" data-statics="info_pic3" data-translate="">
+            <div class="page-con lazy-finish" data-src="/weixin/victoria/img/53b24fc7db825.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53b24fc7db825.jpg); background-size: cover; background-position: 50% 50%;"></div>
+        </div>
+        <!-- 封页 end-->
+
+        <!-- 大图文 3-->
+        <div class="m-page m-bigTxt z-animate f-hide" data-page-type="bigTxt" data-statics="info_list" data-translate="">
+            <div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img/6/53ad389daa5a8.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53ad389daa5a8.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class="m-page m-bigTxt z-animate f-hide" data-page-type="bigTxt" data-statics="info_list" data-translate="">
+            <div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img/53b0d1ba54803.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53b0d1ba54803.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class="m-page m-bigTxt z-animate f-hide" data-page-type="bigTxt" data-statics="info_list" data-translate="">
+            <div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img/53b24e2b608c4.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53b24e2b608c4.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class="m-page m-bigTxt z-animate f-hide" data-page-type="bigTxt" data-statics="info_list" data-translate="">
+            <div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img//53b20d45b4a35.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53b20d45b4a35.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class="m-page m-bigTxt z-animate f-hide" data-page-type="bigTxt" data-statics="info_list" data-translate="">
+            <div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img//53ad3906e48b2.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53ad3906e48b2.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class="m-page m-bigTxt z-animate f-hide" data-page-type="bigTxt" data-statics="info_list" data-translate="">
+            <div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img//53b0d1df4d4af.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53b0d1df4d4af.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class="m-page m-bigTxt z-animate f-hide" data-page-type="bigTxt" data-statics="info_list" data-translate="">
+            <div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img/53b0d1eb3e700.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53b0d1eb3e700.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class="m-page m-bigTxt z-animate f-hide" data-page-type="bigTxt" data-statics="info_list" data-translate="">
+            <div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img//53ad39ab89ff0.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53ad39ab89ff0.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class="m-page m-bigTxt z-animate active f-hide" data-page-type="bigTxt" data-statics="info_list" data-translate="-645" style="transform: translate(0px, -644px) translateZ(0px);">
+            <div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img//53b268232d81b.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53b268232d81b.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <!--<div class="m-page m-bigTxt z-animate action" data-page-type="bigTxt" data-statics="info_list" data-translate="0" style="transform: translate(0px, -4.8px) translateZ(0px) scale(0.99253499222395);">-->
+            <!--<div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img/53b0d1fcb6da7.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53b0d1fcb6da7.jpg); background-size: cover; background-position: 50% 50%;">-->
+            <!--</div>-->
+        <!--</div>-->
+        <!-- 大图文 end-->
+
+
+        <!-- 视频 11-->
+        <!--<div class="m-page m-video z-animate active" data-page-type="video" data-statics="video_list" style="transform: translate(0px, 619px) translateZ(0px);" data-translate="643">-->
+            <!--<div class="page-con lazy-finish" data-src="/weixin/victoria/img//53aa327a505ff.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53aa327a505ff.jpg); background-size: cover; background-position: 50% 50%;">-->
+                <!--<div class="video-title" style="color:#ff005e;">-->
+                    <!--<h3 class="f-tc"></h3>-->
+                <!--</div>-->
+                <!--<div class="video-con j-video" data-width="640" data-height="480" data-src="http://www.lightapp.cn/userfiles/video/59/2014/06/53aa4a607911b.mp4" data-poster="/weixin/victoria/img/53b256a43e1b8.jpg">-->
+                    <!--<div class="img lazy-finish" data-src="/weixin/victoria/img//53b256a43e1b8.jpg" data-position="50% 50%" data-size="cover" style="background-image: url(/weixin/victoria/img/53b256a43e1b8.jpg); background-size: cover; background-position: 50% 50%;">-->
+                        <!--<span class="css_sprite01"></span>-->
+                    <!--</div>-->
+                    <!--<video class="f-hide" controls="" preload="none" width="640" height="480" src="http://www.lightapp.cn/userfiles/video/59/2014/06/53aa4a607911b.mp4"></video></div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!-- 视频end -->
+
+        <!-- 大图文 3-->
+        <div class="m-page m-bigTxt z-animate f-hide" data-page-type="bigTxt" data-statics="info_list" data-translate="">
+            <div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img/53b0d20e42f0c.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53b0d20e42f0c.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <div class="m-page m-bigTxt z-animate f-hide" data-page-type="bigTxt" data-statics="info_list" data-translate="">
+            <div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img/53b0d340d1bca.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53b0d340d1bca.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+            <!-- 微信 -->
+            <div class="bigTxt-btn bigTxt-btn-wx lazy-finish" data-src="/weixin/victoria/img/53b0d36b6a990.jpg" data-position="50% 50%" data-size="auto" style="background-image: url(/weixin/victoria/img/53b0d36b6a990.jpg); background-size: auto; background-position: 50% 50%;"><a href="javascript:void(0)"></a></div>
+            <div class="bigTxt-weixin"><img src="./victoria/weixin-share-guide.png"></div>
+            <!-- 微信 end-->
+        </div>
+        <!-- 大图文 end-->
+
+        <!-- 大图文 3-->
+        <!--<div class="m-page m-bigTxt z-animate active f-hide" data-page-type="bigTxt" data-statics="info_list" style="transform: translate(0px, -633px) translateZ(0px);" data-translate="-645">-->
+            <!--<div class="page-con j-txtWrap lazy-finish" data-src="/weixin/victoria/img/53b2ab05d7a5c.jpg" data-position="50% 50%" data-size="cover" style="height: 645px; background-image: url(/weixin/victoria/img/53b2ab05d7a5c.jpg); background-size: cover; background-position: 50% 50%;">-->
+            <!--</div>-->
+        <!--</div>-->
+        <!-- 大图文 end-->
+
+
+
+    </div>
+    <!-- 旋转反面 end-->
+</section>
+<!-- 正文介绍 end-->
+
+<!--meeting map-->
+<div class="ylmap bigOpen">
+    <!--地图插件元素-->
+    <div class="bk"><span class="css_sprite01"></span></div>
+</div>
+<!--meeting map end-->
+<!-- lightapp入口 -->
+<div class="market-notice f-hide" data-action="Action://lightapp_open">
+    <img src="./victoria/market-notice.png">
+</div>
+<div class="market-page f-hide" data-action="Action://lightapp_close">
+    <div class="market-img">
+        <a href="http://mp.weixin.qq.com/s?__biz=MjM5NTI3Mzk0MA==&mid=200206728&idx=1&sn=8edd0353287f322d1279e0d4eb581c2d#rd">
+            <img src="./victoria/market-app.png">
+        </a>
+        <a href="tel:4000168906">
+            <img src="./victoria/market-tel.png">
+        </a>
+    </div>
+</div>
+<!-- lightapp入口 end-->
+<!--pageLoading-->
+<section class="u-pageLoading">
+    <img src="./victoria/load.gif" alt="loading">
+</section>
+<!--pageLoading end-->
+
+<!-- 资源传递 -->
+<!-- 模版ID -->
+<!-- 微信分享信息 -->
+<!-- 微信分享信息 -->
+<!-- 微信分享信息 -->
+
+
+<!-- 资源传递 end-->
+
+<!--脚本加载-->
+<script src="./victoria/init.mix.js" type="text/javascript" charset="utf-8"></script>
+<script src="./victoria/weixin.js" type="text/javascript" charset="utf-8"></script>
+<script src="./victoria/coffee.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="./victoria/10_ylMap.js" type="text/javascript" charset="utf-8"></script>-->
+<script src="./victoria/Lottery.js" type="text/javascript" charset="utf-8"></script>
+<script src="./victoria/99_main.js" type="text/javascript" charset="utf-8" defer></script>
+<input id="ca-tips" type="hidden" value=""><input id="r-cover" type="hidden" value="/weixin/victoria/img/53a97a1adbb0a.jpg"><input id="activity_id" type="hidden" value="3464"><input id="r-wx-title" type="hidden" value="极致性感">
+
+<input id="r-wx-img" type="hidden" value="http://www.lightapp.cn/userfiles/weixin/tmp/59/53b0d3101f1de.jpg"><input id="r-wx-con" type="hidden" value="我只属于少数派">
+    <!--脚本加载 end-->
+
+
+
+
+</body></html>
